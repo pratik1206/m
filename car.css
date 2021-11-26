@@ -1,0 +1,165 @@
+ body{
+     /*background-color: rgb(203, 236, 206) }*/
+     background-color: white;}
+.logo{
+    width: 160px;
+    height: 90px;
+    cursor: pointer;
+    
+}
+
+.d-block{
+height: 450px;
+width: 100%;
+
+}
+.carousel-caption h3,h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    }
+.carousel-caption p{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*   color: rgb(235, 230, 223);*/
+}
+.carousel-caption p{
+
+    margin-bottom: 200px; 
+
+}
+
+/*.card{
+    
+    border: 0;
+    background: transparent;
+
+}*/
+.card h5{
+    font-size: 26px;
+}
+/*.card:hover{
+    color: rgb(145, 77, 201);
+}*/
+.image1{
+    width: 300px;
+    height: 5px;
+}
+.slider-img {
+    height: 270px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.slider-img:hover{
+    trasform:scale(1.3);
+    z-index: 2;
+}
+.slider-img1 {
+    height: 420px;
+
+}
+
+div.trans{
+
+    width: 200px;
+    height: 3px;
+    background:red;
+    transition:  4s;
+      
+  }
+   div.trans:hover {
+        width: 400px;
+  }
+ 
+  /*.second{
+    background-color: #eee;
+      
+    border:0 ;
+    overflow: hidden;
+  }*/
+  
+  .navbar {
+      text-transform: uppercase;
+      text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+.navbar a:hover {
+     border-bottom: 2px solid yellowgreen;
+     color: red  important; 
+}
+#grad1{
+    height: 120px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(41, 37, 37),rgba(42, 85, 102, 0.952));
+}
+rounded-pill{
+    height: 200px;
+}
+.btn1:hover{
+    background-image: linear-gradient(skyblue, yellow,green);
+   
+}
+div.trans2{
+     float: CENTER;   
+    width: 50px;
+    height: 3px;
+    background: RED;
+    transition: 4s;
+    
+      
+  }
+
+div.trans2:hover {
+     width: 120px;
+}
+  div.trans1{
+    float: CENTER;   
+   width: 150px;
+   height: 2px;
+   background: RED;
+          
+ }
+ #card1{
+     border: 0;
+ }
+ #card2{
+    border:0 ;
+}
+
+#card2:hover {
+    
+    padding-left: 30px;
+    color: gray    ;
+    
+   
+}
+.footer{
+    background-color: #26313c;
+    color: white;
+}
+.logo1{
+    width: 170px;
+    height: 80px;
+    cursor: pointer;
+}
+.foot1:hover a{
+    
+    color: turquoise;
+
+}
+.sliderimg1{
+  height: 100px;
+  width: 120px;
+}
+.btn2:hover{
+    opacity: 0.4;
+}
+.search{
+    background-color: rgb(25, 158, 219);
+    height: 130px;
+    width: 100%;
+}
